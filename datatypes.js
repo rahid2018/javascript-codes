@@ -10,10 +10,10 @@ let state = null // means that it is not undefined but is empty/null
 
 // ====premitive========
 
-// number => 2 to power 53
+// Number => 2 to power 53
 // "bigint" => used for large numbers like stock market
-// string => double / single quote
-// boolean => true/false
+// String => double / single quote
+// Boolean => true/false
 // null => standalone value
 // undefined => declared but value not assigned
 // Symbol => to find uniqueness
