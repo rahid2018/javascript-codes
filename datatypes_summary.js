@@ -35,3 +35,30 @@ const myfunction = function(){}
 }
 
 // all non premitive datatypes return type is object
+
+
+
+//======================== Memory Management===============================
+
+//stack (primitive) chnages occurs in copies, heap(non-primitive) changes occurs in original value
+// ex of stack
+let myYoutubename = "kuch be"
+let anotherName = myYoutubename
+anotherName = "rahid"
+console.log(myYoutubename)
+console.log(anotherName)
+
+// ex of heap
+let userOne = {
+    email : "abc@gmail.com",
+    upi : "abc@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "xyz@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
