@@ -131,6 +131,3 @@ console.log(Math.min(...n))
 // 3. Calculate the square root of 144 using Math.sqrt.
 
 console.log(Math.sqrt(144))//12
-
-
-
